@@ -1,0 +1,1 @@
+log(DEBUG?"DEBUG模式":"发布模式");log("index load!");$("body").append('<div style="display:none;"><script src="http://v1.cnzz.com/z_stat.php?id=1000376337&web_id=1000376337" language="JavaScript"><\/script></div>');true;

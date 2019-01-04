@@ -1,0 +1,73 @@
+
+	<header>
+	  <a href="http://www.manshenqi.com/?from=popup_logo" target="_blank"><h2 class="logo" ></h2></a>
+      <form id="search" action="gateway.html" target="_blank">
+	      <input name="mod" type="hidden" value="search" />
+		  <input class="text" name="q" type="text" placeholder="__MSG_input_tips_search__" value="__MSG_input_default_search__"/><input class="search-btn" type="submit" value="" hidefocus="true" />
+      </form>
+	</header>
+	<div id="main">
+		<div id="container">
+			<dl tab="1" class="fav">
+				<dt><span class="message">__MSG_comic_update_tips_fav__</span><!--<a id="btn_update" href="###">检查漫画更新</a>--></dt>
+				<dd><!--__MSG_jty_fav__ <i id="update_count">0__MSG_ben_fav__</i> __MSG_mhgx_fav__-->
+					<div id="comic_list_status" class="main_status">__MSG_loading__</div>
+					<ul id="comic_list"></ul>
+					
+				</dd>
+			</dl>
+			<!--
+			<dl tab="2" class="download">
+				<dt class="tab"><div><button class="checked" tab="1">正在下载</button><button tab="2">已完成</button></div></dt>
+				<dd>
+					<div tab="1" style="display: block;">
+						<div id="downloading_list_status" class="main_status">__MSG_loading__</div>
+						<ul id="downloading_list">
+						</ul>
+					</div>
+					<div tab="2">
+						<div id="downloaded_list_status" class="main_status">__MSG_loading__</div>
+						<ul id="downloaded_list"></ul>
+					</div>
+				</dd>
+			</dl>
+			-->
+			<dl tab="3" class="site">
+				<!--<dt><span class="message">__MSG_mqgzc_site__ <i id="site_num">0__MSG_ge_site__</i> __MSG_wangzhan_site__</span></dt>-->
+				<dt class="tab"><div><button tab="1" value="all">__MSG_all_cate_site__</button><button tab="2" value="zh">__MSG_zh_cate_site__</button><button tab="3" value="en">__MSG_en_cate_site__</button><!--<button tab="4" value="ja">__MSG_ja_cate_site__</button><button tab="5" value="ko">__MSG_ko_cate_site__</button></div>--></dt>
+				<dd>
+					<ul id="site_list"></ul>
+				</dd>
+			</dl>
+			<dl tab="4" class="option">
+				<dt><span class="message">__MSG_gbyd_label__</span></dt>
+				<dd>
+					<ul class="option_list">
+						<legend><i></i><span>__MSG_ydsz_options_block__</span></legend>
+						<li><span>__MSG_mrqd_option__</span><div id="sw_root_start" class="right xswitch"><b></b><i></i></div></li>
+						<li><span>__MSG_djtpfy_option__</span><div id="sw_click_next" class="right xswitch"><b></b><i></i></div></li>
+						<li><span>__MSG_mhgxtx_option__</span><div id="sw_update_tips" class="right xswitch"><b></b><i></i></div></li>
+						<li><span>__MSG_lang_option__</span><div id="op_lang_select" class="right"><select id="select_lang"></select></div></li>
+					</ul>
+					
+					<ul class="option_list">
+						<legend><i></i><span>__MSG_gymsq_options_block__</span></legend>
+						<li><span>__MSG_weibo_option__</span><div class="right sub"><a href="http://weibo.com/u/5111072862" target="_blank">@__MSG_manshenqi__</a></div></li>
+						<li><span>__MSG_yjfk_option__</span><div class="right sub"><a href="http://manshenqi.com/help.html" target="_blank">www.manshenqi.com</a></div></li>
+						<li><span>__MSG_banben_option__</span><div class="right sub" id="version"></div></li>
+					</ul>
+					
+				</dd>
+			</dl>
+		</div>
+	</div>
+  	<footer>
+	  	<ul>
+	  		<li tab="1" class="fav open"><a href="###">__MSG_shujia_tab__</a></li>
+	  		<!--<li tab="2" class="download"><a href="###">__MSG_xiazai_tab__</a></li>-->
+	  		<li tab="3" class="site"><a href="###">__MSG_zhandian_tab__</a></li>
+	  		<li tab="4" class="option"><a href="###">__MSG_shezhi_tab__</a></li>
+	  	</ul>
+	  	
+  	</footer>
+

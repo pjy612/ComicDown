@@ -1,0 +1,57 @@
+{
+	"blocked":"^(http://passport\\.imanhua\\.com/.*)$",
+	"matched":"^(http://.*\\.(dm5)\\.com/.*|http://.*\\.(1kkk)\\.com/.*|http://comic\\.(sfacg)\\.com/.*|http://.*\\.?(kukudm)\\.com/.*|http://mh\\.(5652)\\.com/.*|http://.*\\.?(99770)\\.cc/.*|http://ac\\.(qq)\\.com/.*|http://.*\\.(jide123|chuixue|chuiyao)\\.com/.*|http://manhua\\.(ali213)\\.net/.*|http://manhua\\.(dmzj)\\.com/.*|http://.*\\.(aiyouman|iyouman)\\.com/.*|http://www\\.(u17)\\.com/.*|http://www\\.(twcomic)\\.com/.*|http://www\\.(xindm)\\.cn/.*|http://www\\.(kanman)\\.com/.*|http://(mangafox)\\.me/.*|http://(comicvip)\\.com/.*|http://www\\.(manhuatai)\\.com/.*)$",
+	"options":{
+		"root_start":true,
+		"click_next":true,
+		"update_tips":true,
+		"fit_type":0,
+		"offline":false
+	},
+	"lang":{
+		"zh_CN":{
+			"name":"中文简体",
+			"ename":"Chinese Simplified"
+		},
+		"zh_TW":{
+			"name":"中文繁體",
+			"ename":"Chinese Traditional"
+		},
+		"en":{
+			"name":"English",
+			"ename":"English"
+		}
+		
+	},
+	"mods":{
+		"chapter":{
+			"script":["comic_lib.js","chapter_lib.js", "chapter.js"],
+			"css":["chapter.css"]
+		},
+		"comic":{
+			"script":["comic_lib.js","comic.js"],
+			"css":["comic.css"]
+		},
+		"index":{
+			"script":["index.js"],
+			"css":["index.css"]
+		}
+	},
+	"page":{
+		"popup":{
+			"script":["popup.js"],
+			"css":["popup.css"]
+		},
+		"options":{
+			"script":["options.js"],
+			"css":["options.css"]
+		},
+		"search":{
+			"script":["comic_lib.js","search_lib.js","search.js"],
+			"css":["search.css"]
+		}
+	},
+	"bg":{
+		"script":["comic_lib.js","chapter_lib.js","fun.js","db.js","bg.js"]
+	}
+}

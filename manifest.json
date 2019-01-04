@@ -1,0 +1,39 @@
+{
+   "background": {
+      "page": "JieCao.html"
+   },
+   "browser_action": {
+      "default_icon": "images/icon/icon19.png",
+      "default_popup": "gateway.html?mod=popup",
+      "default_title": "__MSG_ext_name__"
+   },
+   "content_scripts": [ {
+      "js": [ "js/chrome.js", "js/loader.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.manshenqi.com; object-src 'self'",
+   "debug": true,
+   "default_locale": "zh_CN",
+   "description": "__MSG_ext_description__",
+   "dev": true,
+   "homepage_url": "http://www.manshenqi.com/",
+   "icons": {
+      "128": "images/icon/icon128.png",
+      "16": "images/icon/icon16.png",
+      "19": "images/icon/icon19.png",
+      "32": "images/icon/icon19.png",
+      "48": "images/icon/icon48.png"
+   },
+   "incognito": "spanning",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhCvbw2ZbrLf6GtWe3zuCqET0qV1JdheS5rzrNHWQRq7zJyP/6smVxBVazIkKpWDh6+GLs2FCtr4gajGvaIkoJyTsJnRpipMPNuJa3piUUfr3Qc69Oa2srFC4Pjzp03NSkLIoel/5HPtfhTUWpH8yuDU8f5ZbPhqwFzPKmfFpE4PB/44VK6/Ny5J+8yhiJR9ikfo1DdSpM7eXivFjNDfv6SqYClxcRnJmh63UUe/xE/v1CrWWfo5acDSfTUnDTzsNps6iZ6oeqBtk7aG1+JVecgGIjcn/1mzZPSxr/9aYyYnxXahSu3D8LIQerzdDtAyXg8KOqpzORqbCOQ/IyNuJFQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "21",
+   "name": "__MSG_ext_name__",
+   "options_page": "gateway.html?mod=options",
+   "permissions": [ "http://*/*", "https://*/*", "notifications", "tabs", "activeTab", "storage", "webRequest", "webRequestBlocking", "webNavigation", "unlimitedStorage", "cookies", "downloads" ],
+   "short_name": "__MSG_ext_short_name__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.4",
+   "web_accessible_resources": [ "remote/*", "lib/jquery.js", "test/js/test.js", "manifest.json", "images/*", "_locales/*" ]
+}

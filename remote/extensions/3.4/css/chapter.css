@@ -1,0 +1,414 @@
+@charset"utf-8";
+html, body {
+    overflow:auto !important;
+    width:100%;
+    height:100%;
+    font-family:'Verdana', "Microsoft YaHei", "simhei"
+}
+::selection {
+    background:#333;
+    color:#FFF
+}
+* {
+    margin:0;
+    padding:0
+}
+#YM_reader img, #YM_chapter_list_panel img {
+    background:none !important
+}
+#YM_reader i, #YM_chapter_list_panel i {
+    background:none !important
+}
+#YM_reader a, #YM_chapter_list_panel a:hover {
+    border-bottom:0
+}
+#YM_reader a:-webkit-any-link, #YM_chapter_list_panel a:-webkit-any-link {
+    text-decoration:none
+}
+.simpletooltip {
+    cursor:pointer
+}
+.simple-tooltip {
+    position:absolute;
+    display:block;
+    width:auto;
+    max-width:200px;
+    height:auto;
+    padding:6px 8px;
+    color:#ccc;
+    font:normal 13px/1.3em'Helvetica', 'Arial', 'Sans-serif', "Microsoft YaHei";
+    border:solid 2px #111;
+    background-color:#222;
+    margin-bottom:30px;
+    -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    z-index:9999
+}
+.simple-tooltip .arrow {
+    display:block;
+    width:0;
+    height:0;
+    position:absolute;
+    border-width:6px;
+    border-style:solid;
+    border-color:transparent
+}
+.simple-tooltip.top .arrow {
+    left:50%
+}
+.simple-tooltip.left .arrow {
+    top:50%
+}
+.simple-tooltip.bottom .arrow {
+    left:50%
+}
+.simple-tooltip.right .arrow {
+    top:50%
+}
+body.hide {
+    overflow:hidden !important;
+    display:none
+}
+.YM_clear {
+    clear:both
+}
+#YM_panel {
+    height:40px;
+    width:100%;
+    background-color:red;
+    position:fixed;
+    bottom:0;
+    left:0;
+    z-index:2147483647;
+    font-size:12px;
+    text-align:left
+}
+#YM_reader {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2147483647;
+    height:100%;
+    width:100%
+}
+#YM_mark {
+    z-index:-1;
+    background-color:#222;
+    height:100%;
+    width:100%;
+    opacity:1.0;
+    position:fixed
+}
+#YM_image_panel {
+    padding:0;
+    text-align:center
+}
+#YM_reader .YM_image_container {
+    position:relative
+}
+#YM_reader .YM_image_tool {
+    position:absolute;
+    display:table;
+    width:100%;
+    height:1300px
+}
+#YM_reader .YM_image_tool_cell {
+    display:table-cell;
+    vertical-align:middle;
+    color:#fff;
+    font-size:22px
+}
+#YM_reader .YM_image_tool_tip {
+    margin:10px
+}
+#YM_reader .YM_image_tool_button {
+    border:1px solid #fff;
+    padding:0 10px;
+    margin:10px 10px;
+    background-color:#fff;
+    color:#444;
+    border-radius:10px;
+    cursor:pointer
+}
+#YM_reader img.loading {
+    background-image:url(http://www.manshenqi.com/static/images/loading.gif) !important;
+    background-repeat:no-repeat !important;
+    background-position:center center !important;
+    background-color:#444 !important
+}
+#YM_reader .YM_image_page {
+    position:absolute;
+    vertical-align:middle;
+    width:100%;
+    color:#4f4f4f;
+    font-size:300px;
+    font-family:Verdana;
+    padding-top:100px
+}
+#YM_reader .YM_image {
+    border:0;
+    margin:40px auto;
+    display:block;
+    width:850px;
+    height:1300px;
+    background-color:#444 !important
+}
+.YM_btn {
+    position:fixed;
+    height:30px;
+    width:30px;
+    color:#f1f1cc;
+    right:30px;
+    display:block;
+    z-index:10;
+    border:2px solid #f1f1cc;
+    line-height:30px;
+    font-size:20px;
+    text-align:center;
+    cursor:pointer;
+    background-color:#222
+}
+#YM_report {
+    top:140px;
+    font-size:12px;
+    line-height:13px;
+    padding-top:4px
+}
+#YM_report a {
+    color:#fff
+}
+#YM_close {
+    top:40px
+}
+#YM_fit {
+    top:90px
+}
+.YM_fit_0 {
+    background:url(http://www.manshenqi.com/static/images/sp.png) -210px 0 #222
+}
+.YM_fit_1 {
+    background:url(http://www.manshenqi.com/static/images/sp.png) -210px -30px #222
+}
+.YM_fit_2 {
+    background:url(http://www.manshenqi.com/static/images/sp.png) -210px -60px #222
+}
+#YM_next_chapter {
+    bottom:40px
+}
+#YM_prev_chapter {
+    bottom:90px
+}
+#YM_chapter_list {
+    bottom:140px
+}
+#YM_fav {
+    bottom:190px;
+    background:url(http://www.manshenqi.com/static/images/sp.png) -240px 0;
+    border:0
+}
+#YM_fav.hasFav {
+    background:url(http://www.manshenqi.com/static/images/sp.png) -240px -30px
+}
+#YM_download_chapter {
+    bottom:240px;
+    font-size:12px
+}
+#YM_download_chapter2 {
+    bottom:290px;
+    font-size:12px
+}
+#YM_holder {
+    background-color:black;
+    position:fixed;
+    color:#f1f1cc;
+    right:30px;
+    top:25px;
+    display:block;
+    z-index:2147483647;
+    border:2px solid #f1f1cc;
+    text-align:center;
+    opacity:.6;
+    width:60px;
+    height:60PX;
+    line-height:55PX;
+    font-size:40px;
+    cursor:pointer;
+    border-radius:15px
+}
+#YM_page_no {
+    color:#aaa;
+    position:fixed;
+    font-size:20px;
+    z-index:10;
+    left:10px;
+    bottom:10px;
+    font-size:50px;
+    font-family:Arial;
+    font-weight:bold;
+    color:#333
+}
+#YM_page_no span {
+    font-size:30px;
+    font-family:Arial;
+    font-weight:bold;
+    color:#333
+}
+#YM_chapter_list_panel {
+    width:250px;
+    height:400px;
+    z-index:2147483647;
+    position:fixed;
+    right:65px;
+    bottom:140px;
+    color:#f1f1cc;
+    border:1px solid #f1f1cc;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    background-color:#000
+}
+#YM_chapter_list_panel ul {
+    list-style-type:none;
+    -webkit-padding-start:0;
+    text-align:left
+}
+#YM_chapter_list_panel li {
+    padding:3px 10px
+}
+#YM_chapter_list_panel li a {
+    color:#f1f1f1;
+    font-size:14px
+}
+#YM_chapter_list_panel li.YM_cur a {
+    color:#f90;
+    font-weight:bold
+}
+#YM_chapter_list_panel li a:hover {
+    text-decoration:underline
+}
+#YM_chapter_list_panel ul.error {
+    font-size:14px;
+    text-align:center;
+    vertical-align:middle;
+    height:100px;
+    line-height:50px
+}
+#YM_chapter_list_panel ul.error a {
+    color:#cc3
+}
+#YM_head {
+    height:80px
+}
+#YM_title {
+    color:#a0a0a0;
+    font-size:26px;
+    text-align:center;
+    padding:20px;
+    float:left
+}
+#YM_title a {
+    color:#a0a0a0 !important
+}
+#YM_title a:visited {
+    color:#a0a0a0 !important
+}
+#YM_title a:hover {
+    color:#f0f0f0 !important
+}
+#YM_logo {
+    float:left;
+    margin:10px 30px
+}
+#YM_logo a img {
+    background:RED
+}
+#YM_chapter_end {
+    margin:0 auto 40px auto;
+    text-align:center
+}
+#YM_chapter_end button {
+    font-size:20px;
+    height:60px;
+    width:800px;
+    color:#fff;
+    text-align:center;
+    background:#000;
+    cursor:pointer
+}
+.YM_share {
+    color:#cdf;
+    font-size:23px;
+    display:inline-flex;
+    line-height:35px;
+    margin-top:30px
+}
+#YM_tips {
+    padding:15px 50px;
+    background-color:#000;
+    color:white;
+    opacity:.8;
+    font-size:30px;
+    text-transform:uppercase;
+    text-shadow:0 0 10px #fff;
+    box-shadow:0 0 15px #000;
+    border-radius:5px;
+    line-height:32px;
+    position:FIXED;
+    z-index:1000;
+    display:none
+}
+#YM_error {
+    height:100px;
+    position:fixed;
+    bottom:0;
+    z-index:1000000;
+    margin:0;
+    padding:0;
+    width:100%
+}
+#YM_error div.content {
+    margin:0 10px;
+    width:100%;
+    position:absolute
+}
+#YM_error .info {
+    margin-top:0;
+    float:left
+}
+#YM_error .mask {
+    background:#222;
+    width:100%;
+    height:100%;
+    position:absolute;
+    opacity:.8
+}
+#YM_error h3 {
+    margin-top:10px;
+    font-size:20px;
+    font-weight:normal;
+    color:#ff7
+}
+#YM_error h4 {
+    font-size:12px;
+    margin-top:5px;
+    color:#999;
+    display:inline-block
+}
+#YM_error .tool {
+    margin-top:70px;
+    float:right
+}
+#YM_error .btn {
+    color:#39c;
+    font-size:18px;
+    margin:0 20px;
+    cursor:pointer;
+    text-decoration:initial;
+    border-bottom:1px #39c solid
+}
+#YM_error .btn:hover {
+    border-top:1px #39c solid
+}

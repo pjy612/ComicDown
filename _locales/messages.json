@@ -1,0 +1,415 @@
+﻿{
+	"lang":{"message":"zh-CN"},
+  "ext_name": {
+    "message": "漫神器 ComicReader",
+    "description": "(通用)插件名字。"
+  },
+  "ext_short_name": {
+    "message": "漫画神器Comic",
+    "description": "(通用)插件短名字。"
+  },  
+  "ext_description": {
+    "message": "最好用的漫画工具，收藏，更新提醒、搜索，网罗全部漫画，去除广告，支持dm5动漫屋、sfacg、无限动漫、有妖气、腾讯动漫、吹雪漫画、基德漫画、动漫之家、爱优漫、看漫网、台湾漫画网、新动漫网等",
+    "description": "(通用)插件描述。"
+  },
+  "manshenqi": {	
+    "message": "漫神器",
+    "description": "(通用)漫神器字面值."
+  },
+  "slogan": {	
+    "message": "改变阅读",
+    "description": "(通用)口号."
+  },
+  "loading":{
+    "message": "正在加载...",
+    "description": "(通用)."  	
+  },
+    
+  
+  "shujia_tab": {
+    "message": "书架",
+    "description": "书架tab."
+  },
+  "xiazai_tab": {
+    "message": "下载",
+    "description": "下载tab."
+  },
+  "zhandian_tab":{
+  	"message": "站点",
+  	"description": "站点tab."
+  },
+  "shezhi_tab":{
+  	"message": "设置",
+  	"description": "设置tab."
+  },
+  
+  
+  "gbyd_label":{
+  	"message": "改变阅读",
+  	"description": "设置页面标语."
+  },
+  "ydsz_options_block":{
+  	"message": "阅读设置",
+  	"description": "设置页面上的阅读设置块."
+  },
+  "gymsq_options_block":{
+  	"message": "关于漫神器",
+  	"description": "设置页面上的关于漫神器块."
+  },
+  "mrqd_option":{
+  	"message": "默认启动漫神器阅读器",
+  	"description": "设置页面上的默认启动漫神器阅读器选项."
+  },
+  "djtpfy_option":{
+  	"message": "点击图片翻页",
+  	"description": "设置页面上的点击图片翻页选项"
+  },
+  "mhgxtx_option":{
+  	"message": "漫画更新提醒",
+  	"description": "设置页面上的漫画更新提醒选项."
+  },
+  "lang_option":{
+  	"message": "界面语言",
+  	"description": "阅读器界面语言."
+  },   
+  "weibo_option":{
+  	"message": "微博",
+  	"description": "设置页面上的关于-微博."
+  },
+  "yjfk_option":{
+  	"message": "意见反馈",
+  	"description": "设置页面上的关于-意见反馈."
+  },
+  "banben_option":{
+  	"message": "版本",
+  	"description": "设置页面上的关于-版本."
+  },
+  
+  
+  "mqgzc_site":{
+  	"message": "目前共支持",
+  	"description": "站点页面统计支持网站个数."
+  },
+  "ge_site":{
+  	"message": "个",
+  	"description": "站点页面统计支持网站个数."
+  },
+  "wangzhan_site":{
+  	"message": "网站",
+  	"description": "站点页面统计支持网站个数."
+  },
+  "bumanhua_site":{
+  	"message": "$comicCount$部漫画",
+  	"description": "站点页面列表.",
+	"placeholders":{
+  		"comicCount":{
+			"content":"$1"
+		}
+	}
+  },  
+  "new_tag_site":{
+  	"message": "(NEW!!)",
+  	"description": "站点页面列表 新增网站标示."
+  },
+  "all_cate_site":{
+  	"message": "全部"
+  },
+  "en_cate_site":{
+  	"message": "英文"
+  },
+  "zh_cate_site":{
+  	"message": "中文"
+  },  
+  "ja_cate_site":{
+  	"message": "日文"
+  },   
+  "ko_cate_site":{
+  	"message": "韩文"
+  },  
+  
+  "comic_update_tips_fav":{
+  	"message": "今天有 $b$ $a$本$c$ 漫画更新。",
+  	"description": "书架页面统计今天更新.",
+  	"placeholders":{
+			"a":{
+				"content":"$1"
+			},
+			"b":{
+				"content":"$2"
+			},
+			"c":{
+				"content":"$3"
+			}
+		}
+  },
+  "nolist_tips_fav":{
+  	"message": "还没有收藏一本漫画哟",
+  	"description": "书架页面列表提示."
+  },
+  "update_tag_fav":{
+  	"message": "更新",
+  	"description": "书架页面列表更新标签."
+  }, 
+  "kandao_label_fav":{
+  	"message": "看到：",
+  	"description": "书架页面列表看到."
+  }, 
+  "gengxin_label_fav":{
+  	"message": "更新：",
+  	"description": "书架页面列表更新."
+  }, 
+  "continue_button_fav":{
+  	"message": "继续阅读",
+  	"description": "书架页面列表继续阅读按钮."
+  }, 
+  "delete_button_fav":{
+  	"message": "删除",
+  	"description": "书架页面列表删除按钮."
+  },
+  
+  
+  "input_tips_search":{
+  	"message": "请输入想查找的漫画",
+  	"description": "popup搜索框提示."
+  },
+  "input_default_search":{
+  	"message": "食戟之灵"
+  }, 
+  "recommend_1_search_page":{
+  	"message": "火影忍者"
+  }, 
+  "recommend_2_search_page":{
+  	"message": "七原罪"
+  }, 
+  "recommend_3_search_page":{
+  	"message": "暗杀教室"
+  }, 
+  "recommend_4_search_page":{
+  	"message": "进击的巨人"
+  }, 
+  "recommend_5_search_page":{
+  	"message": "银魂"
+  },
+  "input_tips_search_page":{
+  	"message": "请输入想查找的漫画"
+  },
+  "search_button_search_page":{
+  	"message": "搜索漫画"
+  },
+  "title_search_page":{
+  	"message": "搜索"
+  },
+  "complate_tips_search_page":{
+  	"message": "搜索完毕！"
+  },
+  "complate_tips2_search_page":{
+  	"message": "$siteNum$个站点共找到$comicCount$本漫画",
+  	"description": "搜索页面完成提示.",
+  	"placeholders":{
+			"siteNum":{
+				"content":"$1"
+			},
+			"comicCount":{
+				"content":"$2"
+			}
+		}
+  },
+  "start_tips_search_page":{
+  	"message": "开始搜索.."
+  },
+  "empty_tips_search_page":{
+  	"message": "请输入要搜索的内容！"
+  },
+  "ready_tips_search_page":{
+  	"message": "准备搜索.."
+  },
+  "expand_button_search_page":{
+  	"message": "展开全部"
+  },
+  "fold_button_search_page":{
+  	"message": "收起全部"
+  },
+  "read_button_search_page":{
+  	"message": "从头阅读"
+  },
+  "nochapter_tips_search_page":{
+  	"message": "未获取到章节列表"
+  },
+  "nochapter_button_search_page":{
+  	"message": "查看"
+  },
+  "author_label_search_page":{
+  	"message": "作者："
+  },
+  
+  
+  "open_button_comic":{
+  	"message": "开启漫神器阅读",
+  	"description": "漫画信息页面."
+  },
+  "continue_part1_button_comic":{
+  	"message": "从"
+  },  
+  "continue_part2_button_comic":{
+  	"message": "继续"
+  },  
+    
+  
+  "download_button_chapter":{
+  	"message": "包下",
+  	"description": "漫画阅读页面."
+  },
+  "download_button_chapter2":{
+  	"message": "单下",
+  	"description": "漫画阅读页面."
+  },
+  "report_button_chapter":{
+  	"message": "反馈报错"
+  },
+  "prev_button_chapter":{
+  	"message": "上一章"
+  },
+  "next_button_chapter":{
+  	"message": "下一章"
+  },
+  "chapter_list_button_chapter":{
+  	"message": "章节目录"
+  }, 
+  "fav_button_tips_chapter":{
+  	"message": "收藏到书架"
+  },  
+  "open_reader_tips_chapter":{
+  	"message": "开启漫神器阅读模式"
+  }, 
+  "close_reader_tips_chapter":{
+  	"message": "关闭漫神器阅读模式"
+  }, 
+  "switch_reader_tips_chapter":{
+  	"message": "切换图片适配模式"
+  },
+  
+  "download_complete_tips_chapter":{
+  	"message": "下载成功"
+  },    
+  "no_prev_chapter_tips_chapter":{
+  	"message": "这已经是第一章了！"
+  },     
+  "no_next_chapter_tips_chapter":{
+  	"message": "最后一章了！请等待更新！"
+  },    
+  "no_chapterlist_tips_chapter":{
+  	"message": "获取章节列表失败"
+  },
+  "read_next_chapter_tips_chapter":{
+  	"message": "读取下一章地址失败"
+  },  
+  "read_next_chapter_tips2_chapter":{
+  	"message": "读取下一章失败，请从漫画目录页面进入！"
+  },   
+  "comic_page_button_chapter":{
+  	"message": "查看作品目录"
+  },    
+  "error_loading_image_tips_chapter":{
+  	"message": "加载图片失败"
+  },   
+  "retry_button_chapter":{
+  	"message": "重试"
+  },
+  "share_label_chapter":{
+  	"message": "跪求分享Orz"
+  },   
+  "delete_fav_tips_chapter":{
+  	"message": "收藏已取消"
+  },
+  "add_fav_tips_chapter":{
+  	"message": "收藏成功"
+  },  
+  "title_error_chapter":{
+  	"message": "获取漫画章节失败"
+  },
+  "reason_error_chapter":{
+  	"message": "详细信息："
+  }, 
+  "src_button_error_chapter":{
+  	"message": "查看原始漫画页面"
+  },  
+  "close_button_error_chapter":{
+  	"message": "关闭"
+  },    
+  "report_button_error_chapter":{
+  	"message": "反馈错误"
+  }, 
+  
+  
+  "s_ago_utils":{
+  	"message": "秒前",
+  	"description": "utils.js"
+  },
+  "m_ago_utils":{
+  	"message": "分钟前"
+  },
+  "half_hour_ago_utils":{
+  	"message": "半小时前"
+  },
+  "hour_ago_utils":{
+  	"message": "小时前"
+  },
+  "day_ago_utils":{
+  	"message": "天前"
+  },
+  "week_ago_utils":{
+  	"message": "周前"
+  },
+  "month_ago_utils":{
+  	"message": "月前"
+  },
+  "year_ago_utils":{
+  	"message": "年前"
+  },
+  "many_ago_utils":{
+  	"message": "很久以前"
+  },
+  
+  
+  "error_loader":{
+  	"message": "加载漫神器失败，试试重启浏览器或重新安装漫神器插件！",
+  	"description": "loader.js"
+  },
+  "report_error_gateway":{
+  	"message": "插件初始化失败！",
+  	"description": "gateway.js"
+  },
+  "tips_error_gateway":{
+  	"message": "报告错误？",
+  	"description": "gateway.js"
+  },
+  "retry_error_gateway":{
+  	"message": "重试",
+  	"description": "gateway.js"
+  },
+  "retry_tips_error_gateway":{
+  	"message": "正在重试...",
+  	"description": "gateway.js"
+  },  
+  
+  
+  "chapter_html_error":{
+  	"message": "获取章节内容出错",
+  	"description": "chapter.js"
+  },
+  "chapter_parse_error":{
+  	"message": "章节内容分析出错"
+  },
+  "chapter_reader_error":{
+  	"message": "阅读界面创建出错"
+  },
+  
+
+  
+  "option_list_font_size_popup_css":{
+  	"message":"18px",
+  	"description":"ul.option_list li"
+  }
+
+
+}

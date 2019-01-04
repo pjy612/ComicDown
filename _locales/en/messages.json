@@ -1,0 +1,395 @@
+{
+   "add_fav_tips_chapter": {
+      "message": "Favorite is completed"
+   },
+   "all_cate_site": {
+      "message": "All"
+   },
+   "author_label_search_page": {
+      "message": "Author:"
+   },
+   "banben_option": {
+      "description": "Version option in the options tab.",
+      "message": "Version"
+   },
+   "bumanhua_site": {
+      "description": "站点页面列表.",
+      "message": "$comicCount$ comics",
+      "placeholders": {
+         "comicCount": {
+            "content": "$1"
+         }
+      }
+   },
+   "chapter_html_error": {
+      "description": "chapter.js",
+      "message": "Get Chapter Content Error"
+   },
+   "chapter_list_button_chapter": {
+      "message": "Chapter List"
+   },
+   "chapter_parse_error": {
+      "message": "Analyze Chapter Content Error"
+   },
+   "chapter_reader_error": {
+      "message": "Create Reader UI Error"
+   },
+   "close_button_error_chapter": {
+      "message": "Close"
+   },
+   "close_reader_tips_chapter": {
+      "message": "ComicReader Mode OFF"
+   },
+   "comic_page_button_chapter": {
+      "message": "chapter list"
+   },
+   "comic_update_tips_fav": {
+      "description": "书架页面统计今天更新.",
+      "message": "$prefix$$comicCount$ comics$postfix$ are updated today.",
+      "placeholders": {
+         "comicCount": {
+            "content": "$1"
+         },
+         "postfix": {
+            "content": "$3"
+         },
+         "prefix": {
+            "content": "$2"
+         }
+      }
+   },
+   "complate_tips2_search_page": {
+      "description": "搜索页面完成提示.",
+      "message": "$siteNum$ sites and find $comicCount$ comics",
+      "placeholders": {
+         "comicCount": {
+            "content": "$2"
+         },
+         "siteNum": {
+            "content": "$1"
+         }
+      }
+   },
+   "complate_tips_search_page": {
+      "message": "Search Completed！"
+   },
+   "continue_button_fav": {
+      "description": "书架页面列表继续阅读按钮.",
+      "message": "Continue"
+   },
+   "continue_part1_button_comic": {
+      "message": "from"
+   },
+   "continue_part2_button_comic": {
+      "message": "continue"
+   },
+   "day_ago_utils": {
+      "message": " days ago"
+   },
+   "delete_button_fav": {
+      "description": "书架页面列表删除按钮.",
+      "message": "Delete"
+   },
+   "delete_fav_tips_chapter": {
+      "message": "Favorite is cancelled"
+   },
+   "djtpfy_option": {
+      "description": "Click comic image to load next page option in the options tab.",
+      "message": "Click image to next page"
+   },
+   "download_button_chapter": {
+      "description": "漫画阅读页面.",
+      "message": "DL"
+   },
+   "download_button_tips_chapter": {
+      "description": "漫画阅读页面.",
+      "message": "Download"
+   },
+   "download_complete_tips_chapter": {
+      "message": "Download Complete"
+   },
+   "empty_tips_search_page": {
+      "message": "Keyword cannot be empty！"
+   },
+   "en_cate_site": {
+      "message": "English"
+   },
+   "error_loader": {
+      "description": "loader.js",
+      "message": "Failed to load ComicReader. Please restart your browser or reinstall ComicReader."
+   },
+   "error_loading_image_tips_chapter": {
+      "message": "Failed to load comic image"
+   },
+   "expand_button_search_page": {
+      "message": "Expand All"
+   },
+   "ext_description": {
+      "description": "(通用)插件描述。",
+      "message": "The best comic reading tool all over the world. There are lots of useful and powerful features such as Favortie, Update Notification, Search, Ad free. It supports a lot of comic sites like mangafox,mangareader,mangapanda etc."
+   },
+   "ext_name": {
+      "description": "The name of this extension.",
+      "message": "ComicReader"
+   },
+   "ext_short_name": {
+      "description": "(通用)插件短名字。",
+      "message": "ComicReader"
+   },
+   "fav_button_tips_chapter": {
+      "message": "Add to My Favorite"
+   },
+   "fold_button_search_page": {
+      "message": "Collapse All"
+   },
+   "gbyd_label": {
+      "description": "Slogen in the options tab.",
+      "message": "Reading Revolution"
+   },
+   "ge_site": {
+      "description": "站点页面统计支持网站个数.",
+      "message": ""
+   },
+   "gengxin_label_fav": {
+      "description": "书架页面列表更新.",
+      "message": "Update:"
+   },
+   "gymsq_options_block": {
+      "description": "About ComicReader block in the options tab.",
+      "message": "About ComicReader"
+   },
+   "half_hour_ago_utils": {
+      "message": "half an hour ago"
+   },
+   "hour_ago_utils": {
+      "message": " hours ago"
+   },
+   "input_default_search": {
+      "message": "Naruto"
+   },
+   "input_tips_search": {
+      "description": "popup搜索框提示.",
+      "message": "Type to Search"
+   },
+   "input_tips_search_page": {
+      "message": "Type to search"
+   },
+   "ja_cate_site": {
+      "message": "Japanese"
+   },
+   "kandao_label_fav": {
+      "description": "书架页面列表看到.",
+      "message": "Last Read:"
+   },
+   "ko_cate_site": {
+      "message": "Korean"
+   },
+   "lang": {
+      "message": "en"
+   },
+   "lang_option": {
+      "description": "lang select option in the options tab.",
+      "message": "Language"
+   },
+   "loading": {
+      "description": "(通用).",
+      "message": "Loading..."
+   },
+   "m_ago_utils": {
+      "message": " minutes ago"
+   },
+   "manshenqi": {
+      "description": "Literal value of string ComicReader.",
+      "message": "ComicReader"
+   },
+   "many_ago_utils": {
+      "message": "long long ago"
+   },
+   "mhgxtx_option": {
+      "description": "Comic update notification option in the options tab.",
+      "message": "Comic update notification"
+   },
+   "month_ago_utils": {
+      "message": " months ago"
+   },
+   "mqgzc_site": {
+      "description": "站点页面统计支持网站个数.",
+      "message": "Currently support"
+   },
+   "mrqd_option": {
+      "description": "Load ComicReader on default option in the options tab.",
+      "message": "Load ComicReader on default"
+   },
+   "new_tag_site": {
+      "description": "站点页面列表 新增网站标示.",
+      "message": "(NEW!!)"
+   },
+   "next_button_chapter": {
+      "message": "Next Chapter"
+   },
+   "no_chapterlist_tips_chapter": {
+      "message": "Failed to get chapter list"
+   },
+   "no_next_chapter_tips_chapter": {
+      "message": "It's the last chapter, Please wait for update"
+   },
+   "no_prev_chapter_tips_chapter": {
+      "message": "It's the very first chapter!"
+   },
+   "nochapter_button_search_page": {
+      "message": "Look Up"
+   },
+   "nochapter_tips_search_page": {
+      "message": "Cannot get the Chapter List"
+   },
+   "nolist_tips_fav": {
+      "description": "书架页面列表提示.",
+      "message": "Your bookshelf is empty"
+   },
+   "open_button_comic": {
+      "description": "漫画信息页面.",
+      "message": "Use ComicReader"
+   },
+   "open_reader_tips_chapter": {
+      "message": "ComicReader Mode ON"
+   },
+   "option_list_font_size_popup_css": {
+      "description": "ul.option_list li",
+      "message": "14px"
+   },
+   "prev_button_chapter": {
+      "message": "Last Chapter"
+   },
+   "read_button_search_page": {
+      "message": "Read"
+   },
+   "read_next_chapter_tips2_chapter": {
+      "message": "Failed to get next chapter info. Please go to comic info page to start reading."
+   },
+   "read_next_chapter_tips_chapter": {
+      "message": "Failed to get the next chapter URL"
+   },
+   "ready_tips_search_page": {
+      "message": "Ready to search.."
+   },
+   "reason_error_chapter": {
+      "message": "Error: 1、The comic is off the shelf. 2、The site server is unavailable now. 3、Something is wrong with ComicReader."
+   },
+   "recommend_1_search_page": {
+      "message": "Naruto"
+   },
+   "recommend_2_search_page": {
+      "message": "One Piece"
+   },
+   "recommend_3_search_page": {
+      "message": "Bleach"
+   },
+   "recommend_4_search_page": {
+      "message": "The Gamer"
+   },
+   "recommend_5_search_page": {
+      "message": "Horimiya"
+   },
+   "report_button_chapter": {
+      "message": "BUG !!!"
+   },
+   "report_button_error_chapter": {
+      "message": "Report a bug"
+   },
+   "report_button_tips_chapter": {
+      "message": "Bug Report"
+   },
+   "report_error_gateway": {
+      "description": "gateway.js",
+      "message": "Initiated Failed!"
+   },
+   "retry_button_chapter": {
+      "message": "Try again"
+   },
+   "retry_error_gateway": {
+      "description": "gateway.js",
+      "message": "Retry"
+   },
+   "retry_tips_error_gateway": {
+      "description": "gateway.js",
+      "message": "Retrying..."
+   },
+   "s_ago_utils": {
+      "description": "utils.js",
+      "message": " seconds ago"
+   },
+   "search_button_search_page": {
+      "message": "Search"
+   },
+   "share_label_chapter": {
+      "message": "Share ComicReader on SNS network is appreciated!!! Orz"
+   },
+   "shezhi_tab": {
+      "description": "Options for the extension.",
+      "message": "Options"
+   },
+   "shujia_tab": {
+      "description": "Favorite list.",
+      "message": "Favorite"
+   },
+   "slogan": {
+      "description": "(通用)口号.",
+      "message": "Reading Revolution!"
+   },
+   "src_button_error_chapter": {
+      "message": "Original comic info page"
+   },
+   "start_tips_search_page": {
+      "message": "Searching.."
+   },
+   "switch_reader_tips_chapter": {
+      "message": "Image Adaptive Mode"
+   },
+   "tips_error_gateway": {
+      "description": "gateway.js",
+      "message": "Report Bug?"
+   },
+   "title_error_chapter": {
+      "message": "Failed to get chapter info"
+   },
+   "title_search_page": {
+      "message": "Search"
+   },
+   "update_tag_fav": {
+      "description": "书架页面列表更新标签.",
+      "message": "Update"
+   },
+   "wangzhan_site": {
+      "description": "站点页面统计支持网站个数.",
+      "message": "sites"
+   },
+   "week_ago_utils": {
+      "message": " weeks ago"
+   },
+   "weibo_option": {
+      "description": "Sina Weibo option in the options tab.",
+      "message": "SINA Weibo"
+   },
+   "xiazai_tab": {
+      "description": "Download list.",
+      "message": "Download"
+   },
+   "ydsz_options_block": {
+      "description": "Reading options block in the options tab.",
+      "message": "Reading Options"
+   },
+   "year_ago_utils": {
+      "message": " years ago"
+   },
+   "yjfk_option": {
+      "description": "Feedback option in the options tab.",
+      "message": "Feedback"
+   },
+   "zh_cate_site": {
+      "message": "Chinese"
+   },
+   "zhandian_tab": {
+      "description": "Supported site list.",
+      "message": "Sites"
+   }
+}
